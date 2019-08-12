@@ -5,6 +5,8 @@ Published by NeosAlpha Technologies
 # Function App
 
 We are creating Function App with HTTP Trigger in Visual Studio and configure Azure Blob storage connection string. Here we are getting file name dynamically from Fuction App URL query string or Header and Read data from CSV file and Transform data into JSON format.
+
+Here we can call Function App like : {functionappurl}?filename=test.csv .
 Code will be like:
       
         [FunctionName("CSVtoJSON")]
